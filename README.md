@@ -6,7 +6,9 @@
 ### Introduction
 This repository implements the paper "On the Defense of Spoofing Countermeasures against Adversarial Attacks". This is our attempt to defend against `FGSM` and `PGD` attacks using `band-pass filter` and `VisuShrink denoising` techniques.
 We made [several changes](https://github.com/ano-demo/AdvAttacksASVspoof/compare/master...nguyenvulong:AdvDefenseCM:master) to the base repository, please refer to the full credits below.
-
+### Installation
+`conda env create -f env.yml`
+Make sure to resolve any problems regarding dependencies.
 ### Usage
 We have re-factored the codebase so that it can be run step-by-step, but make sure to modify files in the`_config/` folder and the code arguments below. Two augmentation techniques should be run independently for the two experiments. Make sure to spare 1TB (one terabyte) of hard drive for a complete experiment. Otherwise, one can run an attack on a single model (for example, `FGSM` attack on an `LCNN` occupies 150GB of disk space.) 
 
