@@ -1,5 +1,9 @@
 ## AdvDefenseCM
+### Change Log
+- 2023-07-27 First Decision: Major revision
+- 2023-07-09 Submitted to IEEE Access
 
+### Introduction
 This repository implements the paper "On the Defense of Spoofing Countermeasures against Adversarial Attacks". This is our attempt to defend against `FGSM` and `PGD` attacks using `band-pass filter` and `VisuShrink denoising` techniques.
 We made [several changes](https://github.com/ano-demo/AdvAttacksASVspoof/compare/master...nguyenvulong:AdvDefenseCM:master) to the base repository, please refer to the full credits below.
 
@@ -23,6 +27,8 @@ We have re-factored the codebase so that it can be run step-by-step, but make su
 - The upstream implementation of the authors can be slightly different from report in their paper.  
   
 ## Full credits
-- VisuShrink denoising: https://github.com/AP-Atul/Audio-Denoising
-- sox for band-pass filter: https://sox.sourceforge.net
+- `VisuShrink` denoising: https://github.com/AP-Atul/Audio-Denoising
+- `sox` for band-pass filter: https://sox.sourceforge.net
+- `Adversarial Robustness toolbox (ART)`: https://github.com/Trusted-AI/adversarial-robustness-toolbox
+- `torchattacks`: https://adversarial-attacks-pytorch.readthedocs.io/
 - We thank the authors of the paper "Adversarial Attacks on Spoofing Countermeasures of automatic speaker verification" for their code base of the two models `LCNN` and `SENet`.
