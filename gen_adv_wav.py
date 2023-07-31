@@ -48,7 +48,7 @@ def main(args):
                 continue
             adv_wav = revert_power_db_to_wav(spec, adv_spec)
             save_wav(adv_wav, os.path.join(cur_out_dir, utt_id + "_adv.wav"))
-            save_wav(wav, os.path.join(cur_out_dir, utt_id + ".wav"))
+            # save_wav(wav, os.path.join(cur_out_dir, utt_id + ".wav"))
             
             cnt += 1
             if cnt > NUM_UTTS:
