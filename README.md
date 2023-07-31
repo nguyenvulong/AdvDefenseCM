@@ -33,4 +33,4 @@ We have re-factored the codebase so that it can be run step-by-step, but make su
 - `sox` for band-pass filter: https://sox.sourceforge.net
 - `Adversarial Robustness toolbox (ART)`: https://github.com/Trusted-AI/adversarial-robustness-toolbox
 - `torchattacks`: https://adversarial-attacks-pytorch.readthedocs.io/
-- We thank the authors of the paper "Adversarial Attacks on Spoofing Countermeasures of automatic speaker verification" for their code base of the two models `LCNN` and `SENet`.
+- We thank the authors of the paper "Adversarial Attacks on Spoofing Countermeasures of automatic speaker verification" for their code base of the two models `LCNN` and `SENet`. Their code base can be found here: https://github.com/ano-demo/AdvAttacksASVspoof. Previously I created a fork from this repo, which is located https://github.com/nguyenvulong/AdvDefenseCM_legacy.
