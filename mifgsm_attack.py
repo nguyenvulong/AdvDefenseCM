@@ -94,10 +94,7 @@ def main(config, resume, sysid, protocol_file, asv_score_file, epsilon):
 
         # Call the model's forward method to get the output logits
         output = model(data_normalized)
-
         _, predicted_labels = torch.max(output, 1)
-        print("predicted_labels: ", predicted_labels)
-        print("predicted_labels.shape: ", predicted_labels.shape)
 
         # Pass the predicted labels and target to the attack function
         delta = attack(data_normalized, predicted_labels)
