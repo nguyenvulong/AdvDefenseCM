@@ -1,5 +1,6 @@
 ## AdvDefenseCM
 ### Change Log
+- 2023-08-03 MI-FGSM, SNR measurement added
 - 2023-07-27 First Decision: Major revision
 - 2023-07-09 Submitted to IEEE Access
 
