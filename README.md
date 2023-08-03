@@ -13,7 +13,8 @@ Make sure to resolve any problems regarding dependencies.
 ### Usage
 We have re-factored the codebase so that it can be run step-by-step, but make sure to modify files in the`_config/` folder and the code arguments below. Two augmentation techniques should be run independently for the two experiments. Make sure to spare 1TB (one terabyte) of hard drive for a complete experiment. Otherwise, one can run an attack on a single model (for example, `FGSM` attack on an `LCNN` occupies 150GB of disk space.) 
 
-<p align="center"><img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/a23ab358-2d7d-49ff-a285-f5d575925289" width=200></p>
+<p align="center"><img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/a23ab358-2d7d-49ff-a285-f5d575925289" width=150></p>
+
 
 ### Evaluation
 <p align="center">
@@ -23,6 +24,19 @@ We have re-factored the codebase so that it can be run step-by-step, but make su
 <img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/5178d4db-b5a2-484b-a2c5-ce7ceb4053fa" width=350>
 <img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/c14c5518-ea72-43a4-b9a7-da4f5b44b788" width=800>
 </p>
+
+### Audio samples
+Bandpass filter has the strongest effect of removing noise from the original audio, whereas adversarial sample does not necessarily have noisier output.
+
+**Original sample** https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/f3b61d21-229b-4fc9-af7f-87d41214c6dd
+
+**Adversarial** https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/11fc0a53-6e9d-43d3-9ff3-2f5662ce3479
+
+**Denoised sample** https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/7ff9f0b5-a9d7-4b53-b4a8-cea9eabde25e
+
+**Bandpassed sample**
+https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/9cf99588-d141-4029-b00d-c172db67d0d9
+
 
 ## Other notes
 - Some parts of the code are for `distillation` process. They are not required to reproduce the result of the current paper.
