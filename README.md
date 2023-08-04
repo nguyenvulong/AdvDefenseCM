@@ -25,18 +25,27 @@ We have re-factored the codebase so that it can be run step-by-step, but make su
 <img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/c14c5518-ea72-43a4-b9a7-da4f5b44b788" width=800>
 </p>
 
-### Audio samples
-Bandpass filter has the strongest effect of removing noise from the original audio, whereas adversarial sample does not necessarily have noisier output.
+### Audio samples (CLICK to toggle)
+Github **does not** allow embedding `audio` contents so I have to used `mp4` embedding instead. Make sure to turn on the speaker buttons below.
+<details>
+<summary> Bandpass filter has the strongest effect of removing noise from the original audio, whereas adversarial sample does not necessarily have noisier output.  </summary>
+  
+**Original sample** 
 
-**Original sample** https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/f3b61d21-229b-4fc9-af7f-87d41214c6dd
+https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/1f57d32a-74dd-4ec6-8bbc-e79224e75aa8
 
-**Adversarial** https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/11fc0a53-6e9d-43d3-9ff3-2f5662ce3479
+**Adversarial sample** 
 
-**Denoised sample** https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/7ff9f0b5-a9d7-4b53-b4a8-cea9eabde25e
+https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/1d3d2d6f-1f3f-41d5-ba2f-71c9e297e357
+
+**Denoised sample**
+
+https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/f150bef2-8916-4ab9-93a6-6d2ccacba96e
 
 **Bandpassed sample**
-https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/9cf99588-d141-4029-b00d-c172db67d0d9
 
+https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/050ea798-31e8-4bb5-8ee9-7c496983c760
+</details>
 
 ## Other notes
 - Some parts of the code are for `distillation` process. They are not required to reproduce the result of the current paper.
