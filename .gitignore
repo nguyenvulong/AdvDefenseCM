@@ -1,2 +1,4 @@
 utts_unchanged.txt
 *.pyc
+*.wav
+*.flac
