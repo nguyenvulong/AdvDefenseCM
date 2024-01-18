@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+doi: 10.1109/ACCESS.2023.3310809
+message: "If you use this research, please cite it as below."
+authors:
+  - family-names: "Nguyen-Vu"
+    given-names: "Long"
+    orcid: "https://orcid.org/0000-0002-7764-6235"
+  - family-names: "Doan"
+    given-names: "Thien-Phuc"
+    orcid: "https://orcid.org/0000-0001-7988-5953"
+  - family-names: "Bui"
+    given-names: "Mai"
+    orcid: "https://orcid.org/0009-0006-5953-6266"
+  - family-names: "Hong"
+    given-names: "Kihun"
+    orcid: "https://orcid.org/0000-0002-5538-3630"
+  - family-names: "Jung"
+    given-names: "Souhwan"
+    orcid: "https://orcid.org/0000-0003-2676-3412"
+title: "On the defense of spoofing countermeasures against adversarial attacks"
+date-released: 2023-08-31
+url: "https://github.com/nguyenvulong/AdvDefenseCM"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Nguyen-Vu"
+      given-names: "Long"
+      orcid: "https://orcid.org/0000-0002-7764-6235"
+    - family-names: "Doan"
+      given-names: "Thien-Phuc"
+      orcid: "https://orcid.org/0000-0001-7988-5953"
+    - family-names: "Bui"
+      given-names: "Mai"
+      orcid: "https://orcid.org/0009-0006-5953-6266"
+    - family-names: "Hong"
+      given-names: "Kihun"
+      orcid: "https://orcid.org/0000-0002-5538-3630"
+    - family-names: "Jung"
+      given-names: "Souhwan"
+      orcid: "https://orcid.org/0000-0003-2676-3412"
+  journal: "IEEE Access"
+  title: "On the defense of spoofing countermeasures against adversarial attacks"
+  year: 2023
+publisher:
+  name: "IEEE"
