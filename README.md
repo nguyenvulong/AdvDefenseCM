@@ -15,7 +15,7 @@ Make sure to resolve any problems regarding dependencies.
 ### Usage
 We have re-factored the codebase so that it can be run step-by-step, but make sure to modify files in the`_config/` folder and the code arguments below. Two augmentation techniques should be run independently for the two experiments. Make sure to spare 1TB (one terabyte) of hard drive for a complete experiment. Otherwise, one can run an attack on a single model (for example, `FGSM` attack on an `LCNN` occupies 150GB of disk space.) 
 
-<p align="center"><img src="https://github.com/user-attachments/assets/3310b43a-d745-48b6-8453-bc46f53b680a" width=650></p>
+<p align="center"><img src="./assets/arch.png" width=650></p>
 
 
 ### Audio samples (CLICK to toggle)
