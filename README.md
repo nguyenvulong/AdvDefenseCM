@@ -15,17 +15,8 @@ Make sure to resolve any problems regarding dependencies.
 ### Usage
 We have re-factored the codebase so that it can be run step-by-step, but make sure to modify files in the`_config/` folder and the code arguments below. Two augmentation techniques should be run independently for the two experiments. Make sure to spare 1TB (one terabyte) of hard drive for a complete experiment. Otherwise, one can run an attack on a single model (for example, `FGSM` attack on an `LCNN` occupies 150GB of disk space.) 
 
-<p align="center"><img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/a23ab358-2d7d-49ff-a285-f5d575925289" width=150></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/3310b43a-d745-48b6-8453-bc46f53b680a" width=650></p>
 
-
-### Evaluation
-<p align="center">
-<img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/d41c7cd8-b6a6-43d7-9242-217f03496f48" width=800>
-<img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/011a506c-e0f1-4e84-b9ec-43c88880f282" width=800>
-<img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/448fac89-0322-4997-a0e8-6dd90d0af3ae" width=350>
-<img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/5178d4db-b5a2-484b-a2c5-ce7ceb4053fa" width=350>
-<img src="https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/c14c5518-ea72-43a4-b9a7-da4f5b44b788" width=800>
-</p>
 
 ### Audio samples (CLICK to toggle)
 Github **does not** allow embedding `audio` contents so I have to used `mp4` embedding instead. Make sure to turn on the speaker buttons below.
