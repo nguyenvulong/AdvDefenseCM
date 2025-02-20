@@ -50,6 +50,6 @@ https://github.com/nguyenvulong/AdvDefenseCM/assets/1311412/050ea798-31e8-4bb5-8
 - `sox` for band-pass filter: https://sox.sourceforge.net
 - `Adversarial Robustness toolbox (ART)`: https://github.com/Trusted-AI/adversarial-robustness-toolbox
 - `torchattacks`: https://adversarial-attacks-pytorch.readthedocs.io/
-- We thank the authors of the paper "Adversarial Attacks on Spoofing Countermeasures of automatic speaker verification" for their code base of the two models `LCNN` and `SENet`. Their code base can be found here: https://github.com/ano-demo/AdvAttacksASVspoof. Previously I created a fork from this repo, which is located https://github.com/nguyenvulong/AdvDefenseCM_legacy.
+- We thank the authors of the paper "Adversarial Attacks on Spoofing Countermeasures of automatic speaker verification" for their code base of the two models `LCNN` and `SENet`. Their code base can be found here: https://github.com/ano-demo/AdvAttacksASVspoof.
 
 - Today (2023-11-16), I discovered a paper name _"DOMPTEUR: Taming Audio Adversarial Examples"_ where the authors also did a similar technique to limit the frequencty to `300−5000Hz`. Unfortunately, my finding was too late so I could not reference this paper in my manuscript. **Even though the our study was independently conducted, I would like to shout out to the authors since they are way earlier** than us in using this method to defend against adversarial attacks in Automatic Speech Recognition (ASR) systems. While our study is about spoofing countermeasures, the effect should be very similar if not identical.
